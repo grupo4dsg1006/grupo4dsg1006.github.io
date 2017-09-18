@@ -1,0 +1,24 @@
+
+body {
+    height: 100vh;
+}
+.cabecalho_esq {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 9%;
+    margin-bottom: 7%;
+    z-index: 1;
+    font-family: 'Bree Serif', serif;;
+}
+.cabecalho_direita {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 9%;
+    margin-bottom: 7%;
+    z-index: 1;
+    font-family: 'Bree Serif', serif;
+}
+h3 {
+    color: #EEEEEE;
+    font-size: 1.25em;
+}

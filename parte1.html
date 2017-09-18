@@ -1,0 +1,566 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Relatório | parte 1</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/parte_1.css" rel="stylesheet" media="screen">
+        <link href="css/style_menu.css" rel="stylesheet" media="screen">
+        <link href="css/media-queries-parte1.css" rel="stylesheet" media="screen">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif&amp;subset=latin-ext" rel="stylesheet">
+    </head>
+
+    <body>
+            <header>
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Corrupção</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#intro" class="scroll">Introdução</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Primeiros passos <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="#contexto" class="scroll">Contexto</a></li>
+                              <li><a href="#oportunidade_objetivo" class="scroll">Oportuniadade e Objetivo</a></li>
+                              <li><a href="#relevancia" class="scroll">Relevância</a></li>
+                              <li><a href="#publico" class="scroll">Público alvo</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Desenvolvimento <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#parametros" class="scroll">Parâmetros</a></li>
+                              <li><a href="#alternativas" class="scroll">Alternativas</a></li>
+                              <li><a href="#filtragem" class="scroll">Filtragem das alternativas</a></li>
+                              <li><a href="#consideracoes" class="scroll">Considerações sobre as alternativas</a></li>
+                              <li><a href="#partido" class="scroll">Partido adotado</a></li>
+                              <li><a href="#abordagem" class="scroll">Abordagem socioambiental</a></li>
+                            </ul>
+                          </li>
+                        <li><a href="#proximos_passos" class="scroll">Próximos passos</a></li>
+                    </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+                </nav>
+        </header>
+        
+    <div id="main">
+
+        <button onclick="topFunction()" id="myBtn" class="botao-topo scroll"><span class="glyphicon glyphicon-menu-up"> </span></button>
+
+        <div id="topo" class="container-fluid top">
+            <div class="container">
+                <section class="row topo scroll">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h3 class="cabecalho_esq dsg"> DSG1006 </h3>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h3 class="cabecalho_direita impactos"> Uso e Impactos Socioambientais </h3>
+                        </div>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid sumario_todo">
+            <div class="container">
+                <section class="row sumario">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <h5 class="itens_sumario sumar"> <a href="#intro" class="scroll"> Introdução </a> </h5>
+                            <h5 id="mostrar_primeiros_passos" class="itens_sumario"> Primeiros Passos </h5>
+                            <h6 id="context" class="subitens_sumario"> <a href="#contexto" class="scroll"> Contexto </a> </h6>
+                            <h6 id="oport" class="subitens_sumario"> <a href="#oportunidade_objetivo" class="scroll">  Oportunidade e Objetivo </a> </h6>
+                            <h6 id="releva" class="subitens_sumario"> <a href="#relevancia" class="scroll">  Relevância </a> </h6>
+                            <h5 id="mostrar_desenvolvimento" class="itens_sumario"> Desenvolvimento </h5>
+                            <h6 id="param" class="subitens_sumario"> <a href="#parametros" class="scroll"> Parâmetros </a> </h6>
+                            <h6 id="alter" class="subitens_sumario"> <a href="#alternativas" class="scroll"> Alternativas </a> </h6>
+                            <h6 id="filtro" class="subitens_sumario"> <a href="#filtragem" class="scroll"> Filtragem das alternativas </a> </h6>
+                            <h6 id="considera" class="subitens_sumario"> <a href="#consideracoes" class="scroll"> Considerações sobre as alternativas </a> </h6>
+                            <h6 id="parti" class="subitens_sumario"> <a href="#partido" class="scroll"> Partido adotado </a> </h6>
+                            <h6 id="public" class="subitens_sumario"> <a href="#publico" class="scroll"> Público alvo </a></h6>
+                            <h6 id="aborda" class="subitens_sumario"> <a href="#abordagem" class="scroll"> Abordagem socioambiental </a> </h6>
+                            <h5 class="itens_sumario"> <a href="#proximos_passos" class="scroll"> Próximos Passos </a> </h5>                                              
+                    </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-9">
+                    <div class="imagem1 foo"></div>  
+                </div>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid introducao">
+            <div class="container">
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h1 class="titulos scroll" id="intro"> Introdução </h1>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p class="texto_corrido"> O grupo está trabalhando com o tema da corrupção. Dentro deste tema, o recorte escolhido foi o das pequenas corrupções, aquelas que são praticadas sem que as pessoas se deem conta de que é corrupção. 
+                    </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p class="texto_corrido"> Por corrupção, os integrantes entendem que são ações interpessoais onde se quer tomar vantagem sobre alguém (pessoa física ou jurídica). Alguns exemplos de corrupção são: passar cola, roubar TV a cabo, pirataria, passar ponto no lugar de outro e falsificar bilhete único.
+                        </p>
+                    </div>
+                </section>
+                <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 introd1 bar">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 introd2 bar">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 introd3 bar">
+                        </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="container-fluid passos1">
+            <div class="container">
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="titulos"> Primeiros passos </h1>
+                        <h3 class="subtitulos scroll" id="contexto"> Contexto </h3>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p class="texto_corrido"> A palavra corrupção tem origem no latim corruptĭo, que significa ‘deterioração’. Segundo o dicionário Michaelis, ela indica o “resultado de corromper, adulteração das características de algo, degradação de valores morais ou dos costumes”. O termo vem se tornando cada vez mais comum, especialmente no Brasil, graças a escândalos na política envolvendo desvios de verba, suborno e nepotismo - todos eles enquadrados na definição da palavra. </p>
+                        <p class="texto_corrido"> Essas práticas, contudo, não são recentes no nosso país. Segundo a historiadora Denise Moura, da Universidade Estadual Paulista, em seu estudo sobre as raízes da corrupção no Brasil, aponta que a corrupção chegou aqui junto com a coroa portuguesa e se estabeleceu como o sistema padrão. Segundo ela, esses pequenos desvios de conduta são refletidos atualmente não só na esfera política, com os grandes escândalos como mensalão e Lava Jato, como nas pequenas ações cotidianas.
+                        </p>
+                        <p class="texto_corrido"> E como o pensamento da corrupção acontece na prática? A corrupção nasce com o pensamento individualista, que beneficia a si próprio ou a um núcleo exclusivo próximo a pessoa.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p class="texto_corrido"> Quando colocamos o nosso eu na frente do outro, enxergamos apenas a nossa própria necessidade e ignoramos a necessidade dos que nos cercam. Quando alguém faz algo que pode ser categorizado como corrupção, o objetivo não é prejudicar um terceiro, mas suprir um desejo próprio - o dano ao outro, contudo, se torna uma consequência inevitável. </p>
+                        <p class="texto_corrido"> Analisando, então, esses aspectos históricos e culturais, fica evidente que existem grandes marcos de corrupção na política, mas isso não é uma característica exclusiva desta esfera da sociedade. A corrupção nasce no indivíduo e, antes de chegar aos holofotes, escapa em pequenas situações cotidianas. Um assento preferencial ocupado por quem não tem necessidades especiais em detrimento de quem tem, a cola na prova, a identidade falsa, o furo na fila, a compra de produtos piratas, o bater ponto em falso, entre muitos outros, são exemplos de corrupção realizados por cidadãos comuns que, por muitas vezes, não consideram seus atos como corrupção de fato. </p>
+                    </div>
+                </section>
+                <section class="row">
+                   <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 imagem3 foo">
+                    </div>
+                    <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3">
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+
+        <div class="container-fluid passos1 passos1final">
+            <div class="container">
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h3 class="subtitulos scroll" id="oportunidade_objetivo"> Oportunidade e Objetivo </h3>
+                        </div>
+                </section>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <p class="texto_corrido oportunidade"> Com base nas pesquisas realizadas, a oportunidade encontrada pelo grupo está na <em>naturalização da corrupção no cotidiano carioca, que não a enxerga em si mesmo. Serão apresentados nos espaços de transporte público, comportamentos do jovem carioca que não enxerga a própria corrupção</em>. E, para que este objetivo seja atendido, primeiramente o grupo está questionando o porquê dessas “pequenas corrupções” ocorrerem e quais são as relações entre as pessoas envolvidas.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 imagem4 foo">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <h3 class="subtitulos relevancia scroll" id="relevancia"> Relevância </h3>
+                        <p class="texto_corrido"> Uma abordagem mais questionadora/expositiva pode contribuir para uma auto-avaliação das ações do indivíduo, que não percebe que a corrupção pode estar presente em pequenos atos. </p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h1 class="titulos"> Desenvolvimento </h1>    
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="parametros"> Parâmetros </h3>
+                            <p class="texto_corrido"> O grupo pensou em um total de treze parâmetros, divididos entre mandatórios, impeditivos e desejáveis: </p>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <h4 class="subtitulos2"> Mandatórios </h4>
+                            <ul>
+                                <li class="parameters">Linguagem objetiva;</li>
+                                <li class="parameters">Impacto visual;</li>
+                                <li class="parameters">Legível;</li>
+                                <li class="parameters">Alcance classe média/baixa;</li>
+                                <li class="parameters">Utilizar espaços públicos;</li>
+                                <li class="parameters">Gerar empatia/incômodo</li>
+                                 <li class="parameters">Levar o projeto até o público</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <h4 class="subtitulos2"> Impeditivos </h4>
+                            <ul>
+                                <li class="parameters">Muita informação textual;</li>
+                                <li class="parameters">Personificação;</li>
+                                <li class="parameters">Palavrões/linguajar ofensivo</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <h4 class="subtitulos2"> Desejáveis </h4>
+                            <ul>
+                                <li class="parameters">Dados reais/estatísticos;</li>
+                                <li class="parameters">Alcance de todas as classes sociais;</li>
+                                <li class="parameters">Possibilita interação do público;</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="alternativas"> Alternativas </h3>
+                        </div>
+                            </section>
+                            <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <p class="texto_corrido"> Foram pensadas as seguintes alternativas: </p>
+                        </div>
+                    </section>
+                    <section class="row ordem">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido2 curtas"> 
+                                Curtas/clipes para serem exibidos em televisores de metrô e trens ou relógios de rua, que podem ser em forma de live action, animações tradicionais ou motion graphics;
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa1 bar">
+                        </div>
+                    </section>
+                </div>
+                <div class="container">
+                    <section class="row ordem">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido2 instalacao"> 
+                                Uma instalação dentro de estação(ões) de metrô, com objetos de cena, diferentes dos que o indivíduo já está acostumado e tornando a experiência mais imersiva;
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa2 bar">
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa3 bar"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido3"> 
+                                Peças gráficas espalhadas pela cidade, mais precisamente em pontos de ônibus e estações de metrô, utilizando-se também de uma linguagem mais sarcástica ou humorada, priorizando imagens em vez muitos textos;
+                            </p>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa4 bar"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido3"> 
+                                Um gerador de postagens, em que haveriam frases prontas e a possibilidade de inserção de imagens pelo usuário, com a opção do usuário compartilhar em redes sociais;
+                            </p>
+                        </div>
+                    </section>
+                    <section class="row ordem">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido2 rede_social"> 
+                                Uma rede social em que os usuários apresentam, denunciam e discutem sobre corrupções cotidianas;
+                            </p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa5 bar">
+                            </div>
+                    </section>
+                    <section class="row ordem">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido2 app_gamificado"> 
+                                Aplicativo gamificado com estímulos a não corrupção. O aplicativo pode utilizar-se da geolocalização para mostrar informações sobre corrupção em pontos específicos do trajeto do usuário.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa6 bar"></div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa7 bar"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido3"> 
+                                Totem interativo que insere o usuário em situações de corrupção. Ao final das respostas do usuário, suas informações vão para um banco de dados e logo em seguida aparecem juntamente com estatísticas das respostas de outros usuários;
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="filtragem"> Filtragem das alternativas </h3>
+                            <p class="texto_corrido"> Após o desenvolvimento das duas tarefas anteriores, o grupo elaborou uma tabela contendo todos os parâmetros e alterativas para a filtragem das mesmas. </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+                <div class="container">		  	  
+                    <div class="table-responsive">		    
+                        <table class="table table-bordered table-hover">		      
+                            <thead>		        
+                                <tr>		          
+                                    <th></th>		          
+                                    <th>Curtas/clipes</th>		          
+                                    <th>Instalação</th>		          
+                                    <th>Peças gráficas</th>		          
+                                    <th>Post generator</th>
+                                    <th>Rede social</th>
+                                    <th>Aplicativo</th>
+                                    <th>Totem interativo</th>		        
+                                </tr>		      
+                            </thead>		      
+                            <tbody>		        
+                                <tr>		          
+                                    <th class="mandatorios">Linguagem objetiva</th>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>
+                                    <td></td>
+                                    <td>●</td>
+                                    <td>●</td>		        
+                                </tr>		        
+                                <tr>		          
+                                    <th class="mandatorios">Impacto visual</th>		          
+                                    <td></td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Legível</th>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Alcance classe média/baixa</th>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Utiliza espaços públicos</th>		          
+                                    <td>●</td>		              
+                                    <td>●</td>		              
+                                    <td>●</td>		          
+                                    <td>●</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Gera empatia/incômodo</th>		          
+                                    <td></td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Leva o projeto até o público</th>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="impeditivos">Muita informação textual</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td></td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="impeditivos">Personificação</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td></td>
+                                    <td></td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="impeditivos">Palavrões/linguajar ofensivo</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td></td>
+                                    <td></td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="desejaveis">Dados reais/estatísticos</th>		          
+                                    <td>●</td>		          
+                                    <td></td>		          
+                                    <td>●</td>		          
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="desejaveis">Alcance todas as classes sociais</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="desejaveis">Possibilita interação</th>		          
+                                    <td></td>		          
+                                    <td>●</td>		          
+                                    <td></td>		          
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>●</td>		        
+                                </tr>                                                                                                 				      
+                            </tbody>		    
+                        </table>		    
+                    </div>		
+                </div>
+
+            <div class="container-fluid densenvovimento">
+                <div class="container">
+                    <section class="row">    
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h3 class="subtitulos scroll" id="consideracoes"> Considerações sobre as alternativas </h3>
+                            <p class="texto_corrido"> Os curtas/clipes, as peças gráficas e a instalação não precisam de um engajamento do usuário, visto que causam um impacto visual e despertam a curiosidade do indivíduo. Porém, no caso dos curtas, a probabilidade de alguém ficar assistindo à televisão do metrô ou ônibus é muito baixa.</p>
+                            <p class="texto_corrido">Com o post generator, o usuário pode ser capaz de viralizar informações sobre corrupção. E com o aplicativo gamificado, o indivíduo vai aprender sobre corrupção de uma forma mais indireta, porém é preciso que ele queira aprender sobre para fazer o download do aplicativo primeiramente.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 imagem8 foo"></div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid densenvovimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <h3 class="subtitulos scroll" id="partido"> Partido adotado </h3>
+                            <p class="texto_corrido"> O grupo está mais inclinado a fundir duas alternativas: instalação e peças gráficas, para montar um projeto que possa ter um maior impacto para os interlocutores. </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <h3 class="subtitulos scroll" id="publico"> Público alvo </h3>
+                            <p class="texto_corrido publico-alvo"> O público alvo são pessoas que utilizam transportes públicos, mais precisamente a linha do metroviária do Rio de Janeiro, na faixa etária acima de dezoito anos, que pertencem à classe média/baixa e possuem um dia corrido.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 imagem6 foo"></div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h3 class="subtitulos scroll" id="abordagem"> Abordagem socioambiental </h3>
+                            <p class="texto_corrido"> É comum vermos no nosso dia a dia peças gráficas ou publicitárias espalhadas pela cidade, mas raramente nos questionamos para onde elas vão e qual seria seu ciclo de utilidade. Com o pensamento em torno disso, todas as peças gráficas pensadas e produzidas serão desenvolvidas para atender essas questões ambientais de uso. Não havendo produção exagerada, evitando desperdícios e uso desnecessário de materiais, focando somente nas áreas de impacto e voltado para o público que melhor atende o projeto. </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 imagem9 bar">
+                        </div> 
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid passos2">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h1 class="titulos scroll" id="proximos_passos"> Próximos passos </h1>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido"> Para os próximos passos, o grupo irá analisar similares e correlatos de instalações feitas em locais de transporte público, continuar a ler mais sobre corrupção e compreender mais profundamente o público alvo, para gerar alguns testes de linguagem visual e conteúdo. </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-9 imagem7 foo"></div>                        
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid referencias">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h1 class="titulos"> Bibliografia e Referências </h1>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                            <p class="texto_corrido"> FILGUEIRAS, Fernando. <a href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-62762009000200005" target="_blank">“A tolerância à corrupção no Brasil: uma antinomia entre normas morais e prática social”. </a> Opin. Pública vol.15 no.2 Campinas Nov. 2009. Acesso em 18 de ago. 2017. </p>
+                            <p class="texto_corrido"> MUGNATTO, Gabriel Carvalho. <a href="http://www.politize.com.br/jeitinho-brasileiro/" target="_blank"> “Jeitinho Brasileiro: da criatividade à corrupção”.</a> Politize!, 2017. Acesso em 18 de ago. 2017. </p>
+                            <p class="texto_corrido"> NETO, Nagib Andréos. <a href="http://www.nagibanderaos.com.br/artigos-e-cr%C3%B4nicas/340-uma-reflex%C3%A3o-sobre-a-corrup%C3%A7%C3%A3o.html" target="_blank"> “Uma reflexão sobre a corrupção”. </a> Acesso em 20 de ago. 2017. </p>
+                            <p class="texto_corrido"> SILVA, Rafael. <a href="https://laboratoriofilosofico.wordpress.com/2016/07/13/uma-reflexao-sobre-a-banalidade-da-corrupcao/" target="_blank">“Uma reflexão sobre a banalidade da corrupção”. </a> Laboratório Filosófico, 2016. Acesso em 20 de ago. 2017. </p>
+                            <p class="texto_corrido"> ROQUE, André Vasconcelos. <a href="https://andreroque2.jusbrasil.com.br/artigos/121941177/reflexoes-de-ano-novo-corruptos-somos-nos" target="_blank">“Reflexões de ano novo: corruptos somos nós”. </a> Jusbrasil, 2013. Acesso em 21 de ago. 2017. </p>
+                            <p class="texto_corrido"> LUIS, Andre. <a href="http://www.radiopajeu.com.br/portal/de-onde-vem-a-corrupcao-um-texto-para-refletir/" target="_blank"> “De onde vem a corrupção? Um texto para refletir”. </a> Radio Pajeú, 2016, Pernambuco. Acesso em 21 de ago. 2017. </p>
+                            <p class="texto_corrido"> MAGALHÃES, José Luiz Quadros de. <a href="http://faa.edu.br/revistas/docs/RID/2012/RID_2012_10.pdf" target="_blank">“Reflexões contemporâneas: corrupção”. </a> Centro de Ensino Superior de Valença, 2012, Rio de Janeiro. Acesso em 22 de ago. 2017. </p>
+                            <p class="texto_corrido"> NOVA ESCOLA. <a href="http://rede.novaescolaclube.org.br/planos-de-aula/corrupcao-na-politica-e-no-cotidiano" target="_blank">“Corrupção na política e no cotidiano”.</a> Nova Escola. Acesso em 24 de ago. 2017. </p>
+                            <p class="texto_corrido"> GUROVITZ, Helio. <a href="https://super.abril.com.br/saude/viva-a-lei-de-gerson/" target="_blank">“Viva a lei de Gérson!”.</a> Super Interessante, 2004. Acesso em 24 de ago. 2017. </p>
+                            <p class="texto_corrido"> SANTIAGO, Henriqueta. <a href="http://www.prt13.mpt.mp.br/2-uncategorised/346-novo-aplicativo-anti-corrupcao" target="_blank">“Novo aplicativo anti-corrupção - Parceria do Focco-PB, MPT e UFPB disponibilizará até novembro ferramenta para denúncias”.</a> Ministério Público do Trabalho na Paraíba. Acesso em 30 de ago. 2017. </p>
+                            <p class="texto_corrido"> SALGADO, Eduardo. <a href="http://www.prt13.mpt.mp.br/2-uncategorised/346-novo-aplicativo-anti-corrupcao" target="_blank">“Combate à corrupção requer mudança cultural, diz filósofo”.</a> Exame, 2015. Acesso em 30 de ago. 2017. </p>
+                            <p class="texto_corrido"> MUGNATTO, Gabriel Carvalho. <a href="http://www.politize.com.br/pequenas-corrupcoes-impacto/" target="_blank">“Combate à corrupção requer mudança cultural, diz filósofo”.</a> Politize!, 2017. Acesso em 05 de set. 2017. </p>
+                            <p class="texto_corrido"> MANSON, Mark. <a href="https://markmanson.net/brazil_pt" target="_blank">“Uma carta aberta ao Brasil”.</a> Mark Manson, 2016. Acesso em 08 de set. 2017. </p>
+                        </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem10"></div>  
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/show_and_hide.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/go-totop.js"></script>
+        <script src="js/scrollreveal.js"></script>
+        <script src="js/ordem.js"></script>
+    </body>
+    </html>
