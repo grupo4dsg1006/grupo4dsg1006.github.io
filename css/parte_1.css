@@ -1,0 +1,348 @@
+#main {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+/* texto*/
+.itens_sumario, .itens-sumario a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    color:black;
+}
+.subitens_sumario, .subitens_sumario a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.titulos {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+    margin: 1em 0;
+    border-bottom: 3px solid #F7B910;
+}
+.subtitulos {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-bottom: .75em;
+    color: #4B4B4B;
+    font-weight: medium;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+.sumar {
+    padding-top: 25%;
+}
+.subtitulos2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: medium;
+    font-size: 1.3em; 
+    color: #6B6B6B;
+}
+.texto_corrido2 {
+    text-align: right;
+    padding-top: 105%;
+}
+.texto_corrido3 {
+    padding-top: 100%; 
+}
+.relevancia {
+    padding-top: 48%;
+}
+
+/*links*/
+h5>a, h5>a:visited {
+    color: black;
+}
+a:hover {
+    text-decoration:none;
+}
+h6>a, h6>a:visited {
+    color: #202020;
+}
+h6>a:hover, h6>a:active {
+    color: #2C2C2C;
+}
+h5>a:hover, h5>a:active {
+    color: #2C2C2C;
+}
+.texto_corrido>a {
+    color:#F7B910;
+}
+.texto_corrido>a:hover {
+    color:#5E5E5E;
+}
+
+/*toggle itens*/
+.itens_sumario:hover, .itens_sumario:active, .itens_sumario:focus {
+    text-decoration: none;
+    color: #2C2C2C;
+    cursor: pointer;
+}
+
+/*imagens*/
+.imagem1 {
+    background: url(../img/sumario.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 80vh;
+}
+.introd1, .introd2, .introd3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-top: 5%;
+    background-position: center;
+}
+.introd1 {
+    background-image: url(../img/intro1.png);
+}
+.introd2 {
+    background-image: url(../img/intro2.png);
+}
+.introd3 {
+    background-image: url(../img/intro3.png);
+}
+.imagem6 {
+    background: url(../img/publico.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+.imagem7 {
+    background-image: url(../img/proximos_passos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+.imagem3 {
+    background-image: url(../img/sobre_corrupcao.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+.imagem4 {
+    background-image: url(../img/oportunidade.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+}
+.imagem8 {
+    background-image: url(../img/consideracoes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+}
+.imagem9 {
+    background-image: url(../img/socioambiental.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+}
+.imagem10 {
+    background-image: url(../img/bibliografia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    position: relative;
+    top: 50vh;
+}
+
+/*imagens - alternativas*/
+.alternativa1, .alternativa2, .alternativa3, .alternativa4, .alternativa5, .alternativa6, .alternativa7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+}
+.alternativa1 {
+    background-image: url(../img/curtas.png);
+}
+.alternativa2 {
+    background-image: url(../img/instalacao.png);
+}
+.alternativa3 {
+    background-image: url(../img/pecas_graficas.png);
+}
+.alternativa4 {
+    background-image: url(../img/post_generator.png);
+}
+.alternativa5 {
+    background-image: url(../img/app.png);
+}
+.alternativa6 {
+    background-image: url(../img/gameficado.png);
+}
+.alternativa7 {
+    background-image: url(../img/totem.png);
+}
+
+
+/*containers*/
+.sumario_todo {
+    height: 90vh;
+    margin: 0 auto;
+    background-color: #FF9900;
+}
+.top {
+    background-color: #FF9900;
+}
+.passos1, .referencias {
+    background-color: #E6E6E6;
+}
+
+/*navbar*/
+nav {
+    width: 100%!important;
+}
+.navbar-default .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active {
+    color: #FF9900;
+}
+.navbar {
+   background-color: rgba(0, 0, 0, 0.5);
+   border: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:focus {
+    color:#FF9900;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+    color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
+    color: #C9C9C9;
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar .navbar-default .navbar-fixed-top {
+    height: 20%;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.parameters {
+    list-style-type: none;
+    margin: 0 -3em 0 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05em;
+}
+.parameters:before {
+    content: "\007C";
+    margin: 0 1em;
+    color: #F7B910;
+}
+
+/*dropdown*/
+.dropdown-menu {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+    border: none;
+    float: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+.show>li>hover, .show>li:active {
+    background-color: none!important;
+}
+
+.dropdown-menu>li>a{
+    color: white;
+}
+.dropdown-menu>li>a:hover{
+    background-color: transparent;
+    color: #FF9900;
+}
+
+#publico {
+    padding-top: 100%;
+    text-align: right;
+}
+.publico-alvo {
+    text-align: right;
+}
+
+/*tabela*/
+th {
+    font-family: 'Lato,' sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+td {
+    text-align: center;
+}
+.mandatorios {
+    color: #35b200;
+    text-align: left;
+}
+.impeditivos {
+    color: #d60000;
+    text-align: left;
+}
+.desejaveis {
+    color: #FFBE00;
+    text-align: left;
+}
+.table-responsive {
+    font-family: 'Lato', sans-serif;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    margin: 0 48vh; /* Place the button 30px from the right */
+    z-index: 1000; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #C9C9C9; /* Set a background color */
+    color: #868686; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100px; /* Rounded corners */
+    box-shadow: 3px 3px 15px #525252;
+}
+
+#myBtn:hover {
+    background-color: rgb(114, 114, 114); /* Add a dark-grey background on hover */
+    color: #D3D3D3;
+}
+.passos1final {
+    padding-bottom: 3%;
+}
