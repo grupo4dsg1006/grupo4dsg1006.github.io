@@ -1,5 +1,5 @@
 $(function() {
-    $('#context').hide();
+    $('#justifica').hide();
     $('#releva').hide();
     $('#oport').hide();
     $('#alter').hide();
@@ -9,7 +9,7 @@ $(function() {
     $('#aborda').hide();
     $('#filtro').hide();
     $('#considera').hide();
-    
+    $('#experi').hide();
   });
   
   $('#mostrar_primeiros_passos').on('click', function(e){
@@ -34,6 +34,6 @@ $(function() {
   $('.scroll').click(function() {
       $doc.animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top
-      }, 750);
+      }, 500);
       return false;
   });

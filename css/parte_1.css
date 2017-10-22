@@ -7,26 +7,26 @@
 /* texto*/
 .itens_sumario, .itens-sumario a {
     text-decoration: none;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 900;
     font-size: 1.5em;
     color:black;
 }
 .subitens_sumario, .subitens_sumario a {
     text-decoration: none;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 1.1em;
 }
 .titulos {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 800;
     font-size: 3em;
     margin: 1em 0;
     border-bottom: 3px solid #F7B910;
 }
 .subtitulos {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2em;
     margin-bottom: .75em;
     color: #4B4B4B;
@@ -41,7 +41,7 @@ p {
     padding-top: 25%;
 }
 .subtitulos2 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: medium;
     font-size: 1.3em; 
     color: #6B6B6B;
@@ -210,7 +210,7 @@ nav {
     width: 100%!important;
 }
 .navbar-default .navbar-brand {
-    font-family: 'Bree Serif', 'serif';
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
     font-size: 2em;
@@ -224,7 +224,7 @@ nav {
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
-    font-family: 'Bree Serif', 'serif';
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 1.2em;
 }
@@ -275,7 +275,7 @@ nav {
     box-shadow: none;
     border: none;
     float: none;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
 }
 .show>li>hover, .show>li:active {
@@ -327,7 +327,7 @@ td {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    margin: 0 50%; /* Place the button 30px from the right */
+    margin: 0 48vh; /* Place the button 30px from the right */
     z-index: 1000; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -340,7 +340,7 @@ td {
 }
 
 #myBtn:hover {
-    background-color: #8F8F8F; /* Add a dark-grey background on hover */
+    background-color: rgb(114, 114, 114); /* Add a dark-grey background on hover */
     color: #D3D3D3;
 }
 .passos1final {

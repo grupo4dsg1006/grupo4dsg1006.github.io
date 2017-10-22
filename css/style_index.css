@@ -1,7 +1,7 @@
 h1 {
     color: white;
     margin-left: 7%;
-    font-family: 'Butler ExtraBold', serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 3em;
 }
 h1>a {
@@ -10,7 +10,7 @@ h1>a {
 h2, h2>a {
     text-align: center;
     color: white;
-    font-family: 'Butler ExtraBold', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 500;
 }
 h3 a {
@@ -25,7 +25,7 @@ h2 a:hover, h2 a:active, h2 a:focus {
     padding-bottom: 14%;
 }
 body {
-    background: url(../img/index.jpg) center;
+    background: url(../img/metro.jpg) center;
     height: 100vh;
 }
 .titulo {

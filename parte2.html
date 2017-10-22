@@ -1,0 +1,542 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Relatório | parte 2</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/parte2.css" rel="stylesheet" media="screen">
+        <link href="css/style_menu.css" rel="stylesheet" media="screen">
+        <link href="css/media-queries-parte2.css" rel="stylesheet" media="screen">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
+    </head>
+
+    <body>
+            <header>
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Corrupção</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#intro" class="scroll">Apresentação</a></li>
+                        <li><a href="#contexto" class="scroll">O Projeto </a> </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Detalhamento <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#publico" class="scroll">Público alvo</a></li>
+                              <li><a href="#parametros" class="scroll">Parâmetros</a></li>
+                              <li><a href="#alternativas" class="scroll">Alternativas</a></li>
+                              <li><a href="#filtragem" class="scroll">Filtragem das alternativas</a></li>
+                              <li><a href="#abordagem" class="scroll">Ficha Ambiental</a></li>
+                              <li><a href="#experimenta" class="scroll">Experimentações Inciais</a></li>
+                              <li><a href="#partido" class="scroll">Partido adotado</a></li>
+                            </ul>
+                          </li>
+                        <li><a href="#proximos_passos" class="scroll">Próximos passos</a></li>
+                    </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+                </nav>
+        </header>
+        
+    <div id="main">
+
+        <button onclick="topFunction()" id="myBtn" class="botao-topo scroll"><span class="glyphicon glyphicon-menu-up"> </span></button>
+
+        <div class="container-fluid sumario_todo">
+            <div class="container">
+                <section class="row topo scroll">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h3 class="cabecalho_esq dsg"> DSG1006 </h3>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h3 class="cabecalho_direita impactos"> Uso e Impactos Socioambientais </h3>
+                        </div>
+                </section>
+                <section class="row sumario">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <h5 class="itens_sumario sumar white"> <a href="#intro" class="scroll"> Apresentação </a> </h5>
+                            <h5 class="itens_sumario white"> <a href="#contexto" class="scroll"> O Projeto </a> </h5>
+                            <h5 id="mostrar_desenvolvimento" class="itens_sumario white"> Detalhamento </h5>
+                            <h6 id="public" class="subitens_sumario white"> <a href="#publico" class="scroll"> Público alvo </a></h6>
+                            <h6 id="param" class="subitens_sumario white"> <a href="#parametros" class="scroll"> Parâmetros </a> </h6>
+                            <h6 id="alter" class="subitens_sumario white"> <a href="#alternativas" class="scroll"> Alternativas </a> </h6>
+                            <h6 id="filtro" class="subitens_sumario white"> <a href="#filtragem" class="scroll"> Filtragem das alternativas </a> </h6>
+                            <h6 id="aborda" class="subitens_sumario white"> <a href="#abordagem" class="scroll"> Ficha Ambiental </a> </h6>
+                            <h6 id="experi" class="subitens_sumario white"> <a href="#experimenta" class="scroll"> Experimentações Iniciais </a> </h6>
+                            <h6 id="parti" class="subitens_sumario white"> <a href="#partido" class="scroll"> Partido adotado </a> </h6>
+                            <h5 class="itens_sumario white"> <a href="#proximos_passos" class="scroll"> Próximos Passos </a> </h5>                                              
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid introducao">
+            <div class="container">
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h1 class="titulos scroll" id="intro"> Apresentação </h1>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p class="texto_corrido"> Diante do tema <em>corrupção</em>, tivemos como ponto de partida entender o que é a corrupção e quais as várias formas que ela se manifesta em nossa sociedade. Adotamos como definição de corrupção como toda ação interpessoal por meio da qual se quer tomar vantagem sobre uma pessoa (física ou jurídica), ação essa que possui raízes no individualismo/egoísmo.
+                        </p>
+                        <p class="texto_corrido"> Primeiramente, tomamos por recorte as “pequenas” corrupções, ou seja, a que é feita pelo cidadão comum, que não aparece nas grandes manchetes e se camufla como parte da cultura do brasileiro. Passamos a observar de que maneira essa corrupção se aplicava dentro do contexto do transporte público, especialmente no metrô do Rio de Janeiro; contudo, nos deparamos com uma questão muito maior do que a que enxergávamos até então.                            
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p class="texto_corrido"> Analisando <a href="http://portalgeo.rio.rj.gov.br/indice/flanali.asp?codpal=854&pal=PASSAGEIRO" target="_blank"> dados de fluxo de passageiros</a> da Companhia do Metropolitano do Rio de Janeiro e relacionando-os com nossas pesquisas de campo, nos deparamos com a seguinte questão: por que o Metrô Rio é tão concentrado em uma parcela tão pequena da cidade, mesmo existindo projetos para sua expansão? Essa pergunta nos levou vários outros questionamentos até que nos deparamos com as histórias de estações inteiras cuja a obra está praticamente completa, mas não estão em uso.                                
+                        </p>
+                        <p class="texto_corrido"> Diante de tais levantamentos, abraçamos como novo recorte a corrupção que envolve o Metrô Rio e os impactos que ela tem, atualmente, no sistema de transporte do Rio de Janeiro. A seguir, um inforgráfico sobre o fluxo de passageiros das linhas do Metrô.
+                        </p>
+                    </div>
+                </section>
+                <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 apresentacao bar">
+                        </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="container-fluid passos1">
+            <div class="container">
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="titulos scroll" id="contexto"> O Projeto </h1>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                        <p class="texto_corrido">Entendemos que a recente visualização do projeto nos leva a questões muito mais profundas sobre os impactos diretos da corrupção no universo carioca. No cenário do metrô, esbarramos em problemas que envolvem o transporte público como um todo, bem como o tempo de locomoção do cidadão carioca leva em sua rotina. Nos deparamos ainda com dados que influenciam até mesmo a atual crise financeira do estado do Rio de Janeiro (como os quase 10 milhões de reais gastos só na obra da linha 4).        
+                        </p>
+                        <p class="texto_corrido"> Abordar tais temas e colocar essas informações em evidência levam o público geral a conhecer uma realidade que vem sido abafada. Nós não podemos nos posicionar e protestar contra algo que nem sabemos que acontece - e é exatamente este o ponto. Entendemos que a história que envolve as obras do metrô e como nosso dinheiro está sendo investido precisa ser destacada.                            
+                        </p>
+                        <p class="texto_corrido"> Dessa forma, adotamos como oportunidade <em>a visibilidade de informações sobre projetos abandonados do Metrô Rio,</em> visando apresentar informações do metrô com pouca evidência para o cidadão carioca que transita perto e/ou em locais que deveriam ter estações.</p>
+                    </div>
+                    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container-fluid desenvolvimento1">
+            <div class="container">
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1 class="titulos white"> Detalhamento </h1>    
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <h3 class="subtitulos scroll white" id="publico"> Público alvo </h3>
+                        <p class="texto_corrido white"> Além de quem atualmente usa metrô, o público alvo também são pessoas que poderiam ser usuárias, porém não são porque não existem estações que possam atendê-las, e com isso acabam gastando muito tempo para chegar a seus destinos.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+           
+            <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="parametros"> Parâmetros </h3>
+                            <p class="texto_corrido"> Alguns parâmetros foram realocados, ficando da seguinte forma: </p>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <h4 class="subtitulos2"> Mandatórios </h4>
+                            <ul>
+                                <li class="parameters">Linguagem objetiva;</li>
+                                <li class="parameters">Impacto visual;</li>
+                                <li class="parameters">Alcance classe média/baixa;</li>
+                                <li class="parameters">Utilizar espaços públicos;</li>
+                                <li class="parameters">Dados reais/estatísticos</li>
+                                <li class="parameters">Gera empatia/inccômodo</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <h4 class="subtitulos2"> Impeditivos </h4>
+                            <ul>
+                                <li class="parameters">Muita informação textual;</li>
+                                <li class="parameters">Personificação;</li>
+                                <li class="parameters">Palavrões/linguajar ofensivo</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <h4 class="subtitulos2"> Desejáveis </h4>
+                            <ul>
+                                <li class="parameters">Alcance de todas as classes sociais;</li>
+                                <li class="parameters">Possibilita interação do público;</li>
+                                <li class="parameters">Leva o projeto até a pessoa</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="alternativas"> Alternativas </h3>
+                        </div>
+                            </section>
+                    <section class="row ordem">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido2"> 
+                                Totens instalados próximos à estações de metrô, com dados sobre estações que deveriam existir, estações prontas mas que estão abandonadas etc.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa1 bar">
+                        </div>
+                    </section>
+                </div>
+                <div class="container">
+                    <section class="row ordem">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido2"> 
+                                Site otimizado para <i>smartphones (web app)</i> que usaria <i>geofencing</i> em perímetros próximos a estações para mostrar informações sobre as estações e a história do Metrô.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa2 bar">
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa3 bar"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido3"> 
+                                Peças gráficas que mostram de forma mais impactante a história do Metrô e as alterações dos projetos. Seguiria uma linhagem similar ao design de guerrilha, além de ter o objetivo de emitir rápido e claramente o projeto ao publico;
+                            </p>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 alternativa4 bar"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <p class="texto_corrido3"> 
+                                Instalação que teria como propósito mostrar a realidade do metrô de uma forma mais “lúdica”. Por exemplo, na estação da Carioca, que possui um andar abandonado, ter a instalação em forma de fantasma na rua.                                    
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="filtragem"> Filtragem das alternativas </h3>
+                        </div>
+                    </section>
+                </div>
+            </div>
+                <div class="container">		  	  
+                    <div class="table-responsive">		    
+                        <table class="table table-bordered table-hover">		      
+                            <thead>		        
+                                <tr>		          
+                                    <th></th>		          
+                                    <th>Totem interativo</th>		          
+                                    <th>Web App</th>		          
+                                    <th>Peças gráficas</th>		          
+                                    <th>Instalação</th>	        
+                                </tr>		      
+                            </thead>		      
+                            <tbody>		        
+                                <tr>		          
+                                    <th class="mandatorios">Linguagem objetiva</th>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>
+                                </tr>		        
+                                <tr>		          
+                                    <th class="mandatorios">Impacto visual</th>		          
+                                    <td>●</td>		          
+                                    <td></td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>	        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Alcance classe média/baixa</th>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Utiliza espaços públicos</th>		          
+                                    <td>●</td>		              
+                                    <td>●</td>		              
+                                    <td>●</td>		          
+                                    <td>●</td>		        
+                                </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Apresnta dados reais/estatísticos</th>		          
+                                        <td>●</td>		          
+                                        <td>●</td>		          
+                                        <td>●</td>		          
+                                        <td>●</td>	        
+                                    </tr>
+                                <tr>		          
+                                    <th class="mandatorios">Gera empatia/incômodo</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td>●</td>		          
+                                    <td>●</td>	        
+                                </tr>
+                                <tr>		          
+                                    <th class="impeditivos">Muita informação textual</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>	        
+                                </tr>
+                                <tr>		          
+                                    <th class="impeditivos">Personificação</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>	        
+                                </tr>
+                                <tr>		          
+                                    <th class="impeditivos">Palavrões/linguajar ofensivo</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>	        
+                                </tr>
+                                <tr>		          
+                                    <th class="desejaveis">Alcance todas as classes sociais</th>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>		          
+                                    <td></td>	        
+                                </tr>
+                                <tr>		          
+                                    <th class="desejaveis">Leva o projeto até a pessoa</th>		          
+                                    <td>●</td>		          
+                                    <td>●</td>		          
+                                    <td></td>		          
+                                    <td>●</td>		        
+                                </tr>                                                                                                 				      
+                            </tbody>		    
+                        </table>		    
+                    </div>		
+                </div>
+
+
+            <div class="container-fluid desenvolvimento ficha">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="abordagem"> Ficha Ambiental </h3>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido"> <i>“Ao contrário da maioria dos resíduos produzidos pela natureza, os resíduos gerados pelo homem têm uma velocidade de produção muito maior que a de decomposição, sendo que o primeiro problema a surgir na sua administração, é a forma de eliminá-lo.”</i></p><p class="texto_corrido autoria"> MANDELLI, 1998 -<a href="https://www.portaleducacao.com.br/conteudo/artigos/medicina/descarte-de-cartuchos-para-impressora-impactos-ambientais-e-conscientizacao/19265" target="_blank"> Retirado de Portal Educação</a> </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido"> <i>“As tintas contidas nos cartuchos das impressoras possuem quantidades significativas de metais. Quando dispostas em um ambiente qualquer, estarão sob o efeito do clima e do intemperismo, podendo contaminar o solo e o lençol freático.”</i></p><p class="texto_corrido autoria"> <a href="https://www.portaleducacao.com.br/conteudo/artigos/medicina/descarte-de-cartuchos-para-impressora-impactos-ambientais-e-conscientizacao/19265" target="_blank"> Portal Educação </a> </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido"> <i>“Atualmente a indústria de celulose chega a utilizar até 14 toneladas de eucalipto para produzir uma tonelada de papel.”</i></p><p class="texto_corrido autoria"> <a href="https://exame.abril.com.br/negocios/dino/brasil-comeca-a-produzir-papel-feito-de-palha-de-cana-de-acucar-shtml/" target="_blank"> Exame - Abril </a> </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido"> <i>“De acordo com um estudo divulgado pela Universidade das Nações Unidas, para a montagem de um desktop com monitor de 17 polegadas é utilizada cerca de 1,8 tonelada de componentes. Somente de combustíveis fósseis são gastos 240 quilos, além dos 22 quilos de produtos químicos e 1.500 quilos de água.”</i></p><p class="texto_corrido autoria"> <a href="https://tecnologia.uol.com.br/dicas/ultnot/2008/10/29/ult2665u382.jhtm" target="_blank"> Tecnologia - Uol </a> </p>
+                        </div>
+                    </section>
+
+                    <section class="row">
+                        <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                            <p class="texto_corrido">Para as partes impressas do projeto, temos em vista o menor uso de tinta possível, como por exemplo o uso da cor preta sendo <b>C: 30% M: 0% Y: 0% K: 100%</b>, que não sobrecarrega o material tanto quanto o preto 400% (100% de cada um dos elementos CMYK). Idealmente, a solução mais ecológica seria utilizar impressão à cera, que não gera descarte de grandes quantidades de plástico, enquanto os cartuchos e tonners precisam de cuidados em seu descarte devido a sua composição química. Porém, a única gráfica que realiza esse trabalho com o jato de cera é a <a href="https://www.youtube.com/watch?v=r5M2UtHMC8k"> Eko Footprint </a>(atualmente conhecida por Gráfica Ekológica), que fica situada em Minas Gerais.
+                            </p>
+                            <p class="texto_corrido">Uma das alternativas ao papel a ser utilizado seria o feito a partir do bagaço da cana de açúcar, cujas fibras são ótimas para a fabricação de papéis biodegradáveis. Entretanto, sua produção ainda é relativamente baixa, e não são todos os tipos de papéis que são produzidos com essa matéria. Buscaremos alternativas para o papel a ser utilizado, sendo a mais simples o papel reciclado. Ele, porém, perde a qualidade durante o processo de reciclagem e precisa de uma quantidade de papel tradicional em sua composição para que possa se tornar uma cartaz.
+                            </p>
+                            <p class="texto_corrido">Entendemos, também, que muitos metais pesados são utilizados e muito combustível fóssil é gasto na produção de aparatos tecnológicos. Portanto, caso sejam utilizadas instalações físicas que utilizem interações digitais, todos os cuidados serão tomados para o uso futuro e/ou descarte desses materiais. A internet também pode ser utilizada para divulgação de todas as informações de forma interativa, já que as pessoas acessariam com os computadores e smartphones que já possuem.
+                            </p>
+                        </div>
+                        <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid desenvolvimento2">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll white experimentos" id="experimenta"> Experimentações iniciais </h3>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido white"> Para o Coisa I, como ainda não tínhamos um partido adotado, desenvolvemos uma maquete da Instalação, alguns layouts para o Web App e uma peça gráfica, além de dois inforgráficos que não eram aternativas, serviam apenas para ilustrar o contexto que o grupo está trabalhando. </p>
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>
+            <div class="container-fluid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h4 class="subtitulos2 experimentos"> Peça Gráfica</h4>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido peca"> A peça gráfica foi toda desenvolvida com o auxilio das ferramentas Photoshop e Illustrator. A foto usada como fundo foi tirada pelo grupo em uma das pesquisas em campo, retratando a lotação e a necessidade de haver mais eficiência na operação do Metrô Rio. A intenção é trazer de forma simples e direta informações que grande parte desconhece sobre o Metrô do Rio. </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-9 imagem12 bar">
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container-fuid desenvolvimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h4 class="subtitulos2 experimentos"> Web App</h4>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 imagem13 bar">
+                        </div>
+                        <div class="col=xs-12 col-xs-12 col-md-8 col-lg-8">
+                            <p class="texto_corrido geofence"> Em um perímetro próximo a uma estação de Metrô (ou no caso das estações que não existem, em alguma praça), seria enviada uma notificação para o usuário. Este, ao tocar na notificação é redirecionado à um <em>Web App</em>, que contará com informações mais detalhadas sobre o assunto abordado. Após ler o conteúdo, o usuário pode enviar uma mensagem para a Metrô Rio, com alguma dúvida, sugestão etc.. A interação foi pensada de modo que fosse simples e rápida, com o usuário tendo a opção de sair da mesma a qualquer momento. Abaixo, o fluxograma da interação, e em seguida, alguns layouts e suas respectivas cotas, que foram produzidos no Photoshop, variando alguns elementos de sua interface.</p>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 imagem14 bar"></div> 
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem15 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem16 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem17 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem18 foo"></div> 
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem19 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem20 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem21 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem22 foo"></div> 
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem23 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem24 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem25 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem26 foo"></div> 
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem27 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem28 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem29 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem30 foo"></div> 
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem31 foo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 imagem32 foo"></div>
+                        <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3"></div> 
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid densenvovimento">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm12 col-md-12 col-lg-12">
+                            <h3 class="subtitulos scroll" id="partido"> Partido adotado </h3>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 imagem33 bar"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <p class="texto_corrido"> Tivemos como partido adotado a visualização dos dados do metrô. Por meio de infográficos espalhados entorno das estações, levaremos ao público de forma rápida e clara os dados desconhecidos do Metrô Rio. Primeiramente, estamos separando o conteúdo em quatro eixos informativos: História das linhas, estações prontas, tempo de viagem e dinheiro gasto em obras. Além disso, essa visualização de dados se dará de forma interativa, utilizando-se da internet como plataforma. </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid passos2">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h1 class="titulos white scroll" id="proximos_passos"> Próximos passos </h1>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <p class="texto_corrido3 white"> A partir de então, passaremos a analisar referências de infográficos, mapas e visualização de dados estatísticos em geral. Procuraremos, ainda, entender a liguagem do chamado <em>design de guerrilha</em> e como ela se expressa como forma de denúncia diante de uma determinada situação. 
+                            </p>
+                        </div>                        
+                    </section>
+                </div>
+            </div>
+
+            <div class="container-fluid referencias">
+                <div class="container">
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h1 class="titulos"> Bibliografia e Referências </h1>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <p class="texto_corrido"> RIBEIRO, Gustavo. <a href="http://odia.ig.com.br/noticia/rio-de-janeiro/2015-11-17/rio-tem-uma-estacao-fantasma-do-metro-pronta-ha-mais-de-tres-decadas.html" target="_blank">“Rio tem uma estação fantasma do metrô pronta há mais de três décadas”.</a> O Dia, Rio de Janeiro, 2015. Acesso em 02 de out. 2017. </p>
+                            <p class="texto_corrido"> GONZALEZ, Miguel. <a href="http://metrodorio.blogspot.com.br/" target="_blank"> Metrô do Rio (Não Oficial).</a> Rio de Janeiro. Acesso em 02 de out. 2017. </p>
+                            <p class="texto_corrido"> RODRIGUES, Ubirajara. <a href="http://ubirajarando.blogspot.com.br/2015/04/metro-rio-desde-2003-impede-o-direito.html" target="_blank">“Metrô do Rio impede desde 2003 o direito de ir e vir dos moradores do Morro Azul, bairro do Flamengo, no Rio de Janeiro”. </a> Ubirajarando, Rio de Janeiro, 2015. Acesso em 02 de out. 2017. </p>
+                            <p class="texto_corrido"> RIBEIRO, Gustavo. <a href="http://odia.ig.com.br/noticia/rio-de-janeiro/2015-11-18/botafogo-tambem-possui-plataforma-pronta-de-metro-sem-utilizacao.html" target="_blank">“Botafogo também possui plataforma pronta de metrô sem utilização”. </a> O Dia, Rio de Janeiro, 2015. Acesso em 02 de out. 2017. </p>
+                            <p class="texto_corrido"> MENDONÇA, Alba Valéria. <a href="http://g1.globo.com/rio-de-janeiro/noticia/2015/11/fotos-mostram-plataforma-fantasma-do-metro-feita-em-1979-e-nunca-aberta.html" target="_blank">“Fotos mostram plataforma 'fantasma' do metrô feita em 1979 e nunca aberta”. </a> G1, Rio de Janeiro, 2015. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> OTAVIO, Chico; BIASETTO, Daniel. <a href="https://oglobo.globo.com/brasil/mp-rj-cobra-3-bi-por-fraudes-na-linha-4-do-metro-acusa-cabral-julio-lopes-empresas-da-lava-jato-21287285" target="_blank">“MP-RJ cobra R$ 3 bi por fraudes na Linha 4 do Metrô e acusa Cabral, Júlio Lopes e empresas da Lava-Jato”. </a>  O Globo, Rio de Janeiro, 2017. Acesso em 09 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="http://g1.globo.com/rio-de-janeiro/noticia/2016/07/linha-4-do-metro-rio-que-liga-barra-ipanema-e-inaugurada-neste-sabado.html" target="_blank">“Linha 4 do Metrô Rio, que liga Barra à Ipanema, é inaugurada neste sábado”. </a> G1, Rio de Janeiro, 2016. Acesso em 09 de out. 2017. </p>
+                            <p class="texto_corrido"> BARONY, Jefter. <a href="http://designculture.com.br/guerrilheiros-da-criatividade" target="_blank">“Guerrilheiros da Criatividade”.</a> Design Culture, 2012. Acesso em 02 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="http://www.totalcross.com/blog/geolocalizacao-conceitos-e-aplicacoes/" target="_blank">“Geolocalização: conceitos e aplicações”.</a> TotalCross. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> LELAND, Isabella. <a href="https://blog.goodbarber.com/pt/Geofencing-e-a-industria-de-eventos_a653.html" target="_blank">“Geofencing e a indústria de eventos”.</a> GoodBarber, 2015. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="https://developer.android.com/training/location/geofencing.html" target="_blank">“Creating and Monitoring Geofences”</a>  Android Developers, 2017. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> CREMIN, Ronan. <a href="https://mobiforge.com/news-comment/geofencing-web-push-and-progressive-apps-are-taking-webapps-to-new-place" target="_blank">"Geofencing, web push and progressive apps are taking webapps to a new place”.</a> mogiForge, 2015. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="https://developers.google.com/web/progressive-web-apps/checklist" target="_blank">“Progressive Web App Checklist”.</a> Google Developers, 2017. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> VAN DER TOL, Mark. <a href="https://www.plotprojects.com/blog/geofencing-in-webapps/" target="_blank">“Geofencing in WebApps”.</a> PlotProjects, 2015. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> TEIXEIRA, Fabricio. <a href="https://brasil.uxdesign.cc/o-que-s%C3%A3o-progressive-web-apps-86e1b5306051" target="_blank">“O que são Progressive Web Apps?”.</a> uxdesign.cc Brasil, 2016. Acesso em 05 de out. 2017. </p>
+                            <p class="texto_corrido"> Ficha ambiental: </p>
+                            <p class="texto_corrido"> <a href="https://www.printi.com.br/guia-de-impressao/o-preto-no-cmyk" target="_blank">“O preto no CMYK”.</a> Printi. Acesso em 18 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="https://www.printi.com.br/montagem-do-arquivo/usando-a-cor-preto-de-forma-correta" target="_blank">“Usando a cor preto de forma correta”.</a> Printi. Acesso em 18 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="http://www.office.xerox.com/solid-ink/ptbr.html#_overview" target="_blank">“Cera Sólida”.</a> Xerox. Acesso em 18 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="https://www.facebook.com/EkoFootprint/" target="_blank">Eko Footprint.</a> Facebook. Acesso em 18 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="http://www.gcepapeis.com.br/index.php/sustentabilidade/porque-o-papel-de-cana-de-acucar-e-um-produto-sustentavel.html" target="_blank">"Porque o papel da cana-de-açúcar é um produto sustentável".</a> GCE Papéis. Acesso em 18 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="https://www.lojagcepapeis.com.br/" target="_blank">Loja GCE.</a> GCE Papéis. Acesso em 18 de out. 2017. </p>
+                            <p class="texto_corrido"> <a href="http://revistagloborural.globo.com/Revista/Common/0,,EMI281184-18080,00-BAGACO+DE+CANA+PRODUZ+PAPEL+BIODEGRADAVEL.html" target="_blank">"Bagaço de cana produz papel biodegradável".</a> Revista Globo Rural. Acesso em 18 de out. 2017. </p>
+                            <p class="texto_corrido"> RICCHINI, Ricardo. <a href="http://www.setorreciclagem.com.br/reciclagem-de-papel/reciclagem-industrial-de-papel/" target="_blank">"Reciclagem Industrial de Papel".</a> Setor Reciclagem. Acesso em 18 de out. 2017. </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/show_and_hide2.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/go-totop.js"></script>
+        <script src="js/scrollreveal.js"></script>
+    </body>
+    </html>
