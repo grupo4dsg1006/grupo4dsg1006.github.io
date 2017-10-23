@@ -91,4 +91,10 @@ h5, h6 {
     .imagem33 {
         height: 60vh;
     }
+    .passos1 {
+        height: 100vh;
+    }
+    .ficha {
+        height: 100%;
+    }
 }
