@@ -1,0 +1,100 @@
+@media screen and (max-width: 1125px) {
+    #main {
+        margin: 0 0;
+        max-width: 100%;
+      }
+.texto_corrido {
+    padding-top: 0;
+}
+.texto_corrido2 {
+     text-align: left;
+     padding-top: 5%;
+}
+.texto_corrido3  {
+    padding-top: 0;
+}
+.alternativa1, .alternativa2, .alternativa3, .alternativa4, .alternativa5, .alternativa6, .alternativa7 {
+    height: 40vh;
+}
+.alternativa3, .alternativa4, .alternativa7 {
+    margin-top: 5%;
+}
+.introd3 {
+    margin-bottom: 7%;
+}
+h5, h6 {
+    text-align: center;
+  }
+.sumar {
+    padding-top: 5%;
+    }
+.sumario_todo {
+   height: 145vh;
+}
+#publico {
+    padding-top: 0;
+    text-align: left;
+}
+.publico-alvo {
+    text-align: left;
+}
+.relevancia {
+    padding-top: 0;
+}
+.passos1final {
+    padding-bottom: 5%;
+}
+.imagem10 {
+    top: 0;
+}
+.ordem {
+    display: flex;
+    flex-flow: column-reverse;
+}
+.curtas, .instalacao, .rede_social, .app_gamificado {
+    order: 2;
+}
+.alternativa1, .alternativa2, .alternativa5, .alternativa6 {
+    order: 1;
+}
+}
+
+@media screen and (max-width: 992px) {
+    .dropdown-menu .show {
+        display: inline-block;
+    }
+    .dropdown-menu {
+        text-align: center;
+        background-color: transparent;
+        position: relative;
+    }
+    .cabecalho_esq {
+        text-align: center;
+        padding-top: 0,5%;
+        padding-bottom: 3%;
+        margin-left: 0;
+    }
+    .cabecalho_direita {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 1.5em;
+    }
+    .apresentacao {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        height: 60vh;
+    }
+    .imagem33 {
+        height: 60vh;
+    }
+    .passos1 {
+        height: 100vh;
+    }
+    .ficha {
+        height: 100%;
+    }
+}
