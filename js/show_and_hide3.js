@@ -11,6 +11,7 @@ $(function() {
     $('#considera').hide();
     $('#experi').hide();
     $('#tat').hide();
+    $('#aborda2').hide();
   });
   
   $('#mostrar_primeiros_passos').on('click', function(e){
@@ -28,6 +29,7 @@ $(function() {
     $('#considera').fadeToggle(250);
     $('#public').fadeToggle(250);
     $('#tat').fadeToggle(250);
+    $('#aborda2').fadeToggle(250);
   });
 
   /*scroll*/
